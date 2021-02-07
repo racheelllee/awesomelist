@@ -1,0 +1,48 @@
+.horizontalBar{
+    background-color: #0d263633;
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    text-align: center;
+}
+.title{
+    display:inline-block;
+    vertical-align: middle;
+    color: #0D2636;
+}
+.logo{
+    height: 100%;
+    width: auto;
+}
+.mainList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 50px;
+}
+main{
+    min-height: calc(100vh - 150px);
+    margin: 0 auto;
+}
+.mainList li{
+    display:inline-block;
+    width: calc(100% - 20px);
+    max-width: 300px;
+    height: 200px;
+    margin: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: #0d263633;
+    color: #0D2636;
+
+}
+
